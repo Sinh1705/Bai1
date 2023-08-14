@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4ae9c4"
+    android:gravity="center">
+    <LinearLayout
+        android:background="#65dd"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/result_text_High_Score"
+            android:padding="10dp"
+            android:layout_marginBottom="7dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textAlignment="textStart"
+            android:text="Score: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/result_total_Question"
+            android:layout_marginBottom="7dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textAlignment="textStart"
+            android:text="Total Ques: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/result_Correct_Ques"
+            android:layout_marginBottom="7dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textAlignment="textStart"
+            android:text="Correct: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/result_Wrong_Ques"
+            android:layout_marginBottom="7dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textAlignment="textStart"
+            android:text="Wrong: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/result_bt_playagain"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:text="Play Again"
+                android:layout_margin="20px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_margin="20px"
+                android:id="@+id/result_bt_mainmenu"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:text="Main Menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

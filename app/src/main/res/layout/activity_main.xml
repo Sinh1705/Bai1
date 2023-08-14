@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/f297286a3a4cc0a8010ae1cbfa9a079d"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:textColor="#191970"
+        android:textSize="35sp"
+        android:text="THI TRẮC NGHIỆM CHO HỌC SINH LỚP 8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textColor="#607B8B"
+        android:textSize="25sp"
+        android:text="Chọn môn thi:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"></Spinner>
+
+
+    <Button
+        android:id="@+id/button_start_question"
+        android:backgroundTint="#C71585"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:text="Bắt đầu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textview_high_score"
+        android:textColor="#FF4500"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="Điểm cao: 100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

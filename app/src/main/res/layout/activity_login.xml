@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:src="@drawable/hinhnen"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"/>
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_round"
+        android:textSize="25sp"
+        android:text="Login" />
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/btn_sigup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round"
+        android:textSize="25sp"
+        android:text="Sigup" />
+</LinearLayout>
